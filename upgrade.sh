@@ -1,9 +1,11 @@
 #!/bin/sh
 
 #
-# creates new release for lib
+# creates new release for aar lib
 # usage
 #   upgrade <new version> <input aar path>
+#
+#
 
 [ $# != 2  ]                            && echo "usage: upgrade <version> <input file>" && exit 1
 [ ! -d  "MELROSE_GROUP" ]               && echo "Run from the same directory, not from `pwd`..." && exit 1
